@@ -1,0 +1,20 @@
+<h1>Progress Table</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>User Name</th>
+    <th>Video Id</th>
+    <th>Watched</th>
+  </tr>
+  </thead>
+  <tbody>
+    {% for progress in Progress %}
+    <tr>
+      <td>{{ progress.userid.username }}</td>
+      <td>{{ progress.videoId.title }}</td>
+      <td>{{ progress.watched }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

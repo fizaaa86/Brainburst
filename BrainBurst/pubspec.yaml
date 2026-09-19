@@ -1,0 +1,85 @@
+name: brainburst
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg_provider: ^1.0.7
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  file_picker: ^6.1.1
+  http: ^1.2.0
+  email_validator: ^2.1.17
+  django_rest_framework_client: ^0.0.5
+  video_player: ^2.8.2
+  video_player_with_controls: ^0.0.4
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  flutter_camera: ^1.0.0
+  google_generative_ai: ^0.2.2
+  speech_to_text: ^6.6.1
+  translator: ^1.0.0
+  google_ml_kit: ^0.16.3
+  fl_chart: ^0.67.0
+  image: ^3.3.0
+
+  # tflite: ^1.1.2
+  # tflite_flutter: ^0.10.4
+  # tflite_v2: ^1.0.0
+  tflite_flutter: ^0.10.4
+  flutter_animate: ^4.5.0
+  tflite_flutter_helper_plus: ^0.0.2
+  # tflite_flutter_helper_plus: ^0.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/config/
+    - assets/welcome_page_cap.png
+    - assets/welcome_page_logo.png
+    - assets/login_page_image.png
+    - assets/learning_page/app_bar_logo.png
+    - assets/learning_page/Group3.svg
+    - assets/learning_page/Group6.svg
+    - assets/learning_page/Group5.svg
+    - assets/learning_page/play.svg
+    - assets/learning_page/play2.svg
+    - assets/BottomNavigation/bn1.png
+    - assets/BottomNavigation/bn2.png
+    - assets/BottomNavigation/bn3.png
+    - assets/BottomNavigation/bn4.png
+    - assets/video_page/circle.svg
+    - assets/video_page/elephant.png
+    - assets/scanning_page/brainburst21.png
+    - assets/scanning_page/tile1.png
+    - assets/scanning_page/tile2.png
+    - assets/scanning_page/tile3.svg
+    - assets/recording_page/recording_logo.png
+    - assets/gaming_page/gaming_tile1.png
+    - assets/gaming_page/gaming_tile2.png
+    - assets/badges/badge1.png
+    - assets/badges/badge2.png
+    - assets/badges/badge3.png
+    - assets/badges/badge4.png
+    - assets/sign_out.png
+    - assets/earn_badge/p1.png
+    - assets/earn_badge/p2.png
+    - assets/scanning_page/ee1.png
+    - assets/models/model.tflite
+    - assets/models/labels.txt

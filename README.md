@@ -1,17 +1,22 @@
-TO FIND IP ADDRESS
-ipconfig
+# BrainBurst Mobile Application
 
+BrainBurst is an interactive educational mobile application designed to make learning engaging and enjoyable for children.
 
-DJANGO COMMANDS
-pip install pipreqs
-pipreqs .
-pip install -r requirements.txt
-python manage.py runserver 192.168.1.71:8000
-"ip adddress should find by above step and use port number 8000"
+## Features
 
+- Interactive learning
+- Handwriting recognition
+- Object scanning
+- Educational videos
+- Puzzles and games
+- Speech-based learning
+- Badges and rewards
+- User authentication and profiles
 
-FLUTTER COMMANDS
-flutter pub get
-code ./lib/constants/api.dart
-"to enter ip address"
-flutter run
+## Tech Stack
+
+**Flutter | Python | Django | TensorFlow | OpenCV**
+
+## Purpose
+
+The project aims to provide an interactive and inclusive learning platform that combines education, technology, and gamification for children.
